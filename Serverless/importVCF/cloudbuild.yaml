@@ -9,5 +9,5 @@ steps:
       - --entry-point=main
       - --region=us-central1
       - --source=Serverless/importVCF
-      - --trigger-resource=gene222-serverless-variants
+      - --trigger-resource=gene222_final
       - --trigger-event=google.storage.object.finalize
